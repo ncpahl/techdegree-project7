@@ -181,6 +181,10 @@ main {
   justify-content: space-between;
 }
 
+.chart-container {
+  width: 95%;
+}
+
 /* Traffic */
 .traffic {
   padding: 10px;
