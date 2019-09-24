@@ -159,7 +159,10 @@ main {
 
 .widget-container-full, .widget-container-half {
   width: 90vw;
+  max-width: 1400px;
+  margin: 0 auto;
 }
+
 
 /* Alert */
 
@@ -408,6 +411,7 @@ main {
 
   .widget-container-half {
     width: 40vw;
+    max-width: 400px;
   }
 
 .grid-container {
@@ -487,7 +491,7 @@ main {
 
   @media (min-width: 1024px) {
     .grid-container {
-      width: 1400px;
+      max-width: 1400px;
       margin: 0 auto;
     }
   }
